@@ -35,5 +35,5 @@ git clone -n https://github.com/tomaztk/Azure-Databricks.git
 
 
 ## Contact
-Feel free to get in touch for over [email](mailto:tomaztsql@gmail.com?subject=[GithubRepo]%20Source%20Han%20Sans) or follow me:
+Feel free to get in touch for over [email](mailto:tomaztsql@gmail.com?subject=[GithubRepo]%20AzureDatabricks) or follow me:
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/tomaz_tsql.svg?style=social&label=Follow%20%40tomaz_tsql)](https://twitter.com/tomaz_tsql) .
