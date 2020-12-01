@@ -14,7 +14,7 @@ a set of blogposts as a Advent of 2020 present to readers for easier onboarding
 to Azure Databricks! </span>
 
 
-##Featured blogposts 
+## Featured blogposts 
 
 1. [Dec 01 2020 - What is Azure DataBricks](https://github.com/tomaztk/Azure-Databricks/blob/main/%20Dec%2001%202020%20-%20What%20is%20Azure%20DataBricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/01/advent-of-2020-day-1-what-is-azure-databricks/))
 2. Dec 02 2020 - How to get started with Azure Databricks (blogpost[])
