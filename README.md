@@ -17,7 +17,7 @@ to Azure Databricks! </span>
 ## Featured blogposts 
 
 1. [Dec 01 2020 - What is Azure DataBricks](https://github.com/tomaztk/Azure-Databricks/blob/main/%20Dec%2001%202020%20-%20What%20is%20Azure%20DataBricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/01/advent-of-2020-day-1-what-is-azure-databricks/))
-2. [Dec 02 2020 - How to get started with Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/%20Dec%2002%202020%20-%20How%20to%20get%20started%20with%20Azure%20DataBricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/01/advent-of-2020-day-1-what-is-azure-databricks/))
+2. [Dec 02 2020 - How to get started with Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/%20Dec%2002%202020%20-%20How%20to%20get%20started%20with%20Azure%20DataBricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/02/advent-of-2020-day-2-how-to-get-started-with-azure-databricks/))
 3. Dec 03 2020 - Getting to know the environment (blogpost[])
 4. Dec 04 2020 - Setting up your first Cluster (blogpost[])
 5. Dec 05 2020 - TBD
