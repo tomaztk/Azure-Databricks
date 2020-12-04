@@ -22,13 +22,32 @@ Series of Azure Databricks posts:
 <p>We have learned what Azure Databricks is and looked how to get started with the platform. Now that we have this covered, let's get familiar with the workspace and the platform.</p>
 
 
-You will be re-directed to signed-in to Azure Databricks platform. And you will also see the IAM integration with Azure Active Directory Single Sign-on is done smooth. This is especially welcoming for enterprises and businesses that whole IAM policy can be federated  using AD.
-
-
 <p>On <a rel="noreferrer noopener" href="https://portal.azure.com/" target="_blank">Azure portal</a> go to Azure Databricks services and launch workspace.</p>
+
+<div>
+<p>
+<img src="images/img07_3_1.png"  width="200" align="center"/>
+</p>
+</div>
+
+
+You will be re-directed to signed-in to Azure Databricks platform. And you will also see the IAM integration with Azure Active Directory [Single Sign-on](https://en.wikipedia.org/wiki/Single_sign-on) is done smooth. This is especially welcoming for enterprises and businesses that whole IAM policy can be federated  using AD.
+
+
+<div>
+<p>
+<img src="images/img08_3_2.png"  width="300" align="center"/>
+</p>
+</div>
+
 
 On main console page of Azure Databricks you will find the following sections:
 
+<div>
+<p>
+<img src="images/img09_3_3.png"  width="1000" align="center"/>
+</p>
+</div>
 
 <!-- wp:list {"ordered":true} -->
 <ol><li>Main vertical navigation bar, that will be available all the time and gives users simple transitions from one task (or page) to another.</li><li>Common tasks to get started immediately with one desired task</li><li>Importing &amp; Exploring data is task for Drag&amp;Dropping your external data to DBFS system</li><li>Starting new notebook or getting some additional information on Databricks documentation and Release notes</li><li>Settings for any user settings, administration of the console and management.</li></ol>
