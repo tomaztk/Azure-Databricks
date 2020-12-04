@@ -42,24 +42,38 @@ On main console page of Azure Databricks you will find the following sections:
 
 Thanks to the intuitive and self-explanatory icons and names, there is no need to explain what each icon represents.
 
-Home - this will always get you at the console page, no matter where you are.
-Workspaces - this page is where all the collaboration will happen, where user will have data, notebooks and all the work at their disposal. Workspaces is by far - from data engineer, data scientist, machine learning engineer point of view - the most important section
-Recents - where you will find all recently used documents, data, services in Azure Databricks
-Data - is access point to all the data - databases and tables that reside on  DBFS and as files; in order to see the data, a cluster must be up and running, due to the nature of Spark data distribution
-Clusters - is a VM in the background that runs the Azure Databricks. Without the cluster up and running, the whole Azure Databricks will not work. Here you can setup new cluster, shut down a cluster, manage the cluster, attach cluster to notebook or to a job, create job cluster and setup the pools. This is the "horses" behind the code and it is the compute power, decoupled from the notebooks in order to give it scalability.
-Jobs - is a overview of scheduled (crontab) jobs that are executing and are available to user. This is the control center for job overview, job history, troubleshooting and administration of the jobs.
-Models - page that gives you overview and tracking of your machine learning models, operations over the model, artefacts, metadata and parameters for particular model or a run of a model.
-Search - is a fast, easy and user-friendly way to search your workspace.
+<div>
+<p>
+<img src="images/img11_3_5.png"  width="80" align="center
+"/>
+</p>
+</div>
+
+
+- Home - this will always get you at the console page, no matter where you are.
+- Workspaces - this page is where all the collaboration will happen, where user will have data, notebooks and all the work at their disposal. Workspaces is by far - from data engineer, data scientist, machine learning engineer point of view - the most important section
+- Recents - where you will find all recently used documents, data, services in Azure Databricks
+- Data - is access point to all the data - databases and tables that reside on  DBFS and as files; in order to see the data, a cluster must be up and running, due to the nature of Spark data distribution
+- Clusters - is a VM in the background that runs the Azure Databricks. Without the cluster up and running, the whole Azure Databricks will not work. Here you can setup new cluster, shut down a cluster, manage the cluster, attach cluster to notebook or to a job, create job cluster and setup the pools. This is the "horses" behind the code and it is the compute power, decoupled from the notebooks in order to give it scalability.
+- Jobs - is a overview of scheduled (crontab) jobs that are executing and are available to user. This is the control center for job overview, job history, troubleshooting and administration of the jobs.
+- Models - page that gives you overview and tracking of your machine learning models, operations over the model, artefacts, metadata and parameters for particular model or a run of a model.
+- Search - is a fast, easy and user-friendly way to search your workspace.
 
 
 ### Settings
 
 Here you will have overview of your service, user management and account:
 
-User setting - where you can setup personal access tokens for Databricks API, manage GIT integration and notebooks settings 
-Admin console - where administrator will set IAM policies, security and group access and enabling/disabling additional services as Databricks genomics, Container services, workspaces behaviour, etc.
-Manage account - will redirect you to start page on Azure dashboard for managing of the Azure account that you are using to access Azure Databricks.
-Log Out - will log out you from Azure Databricks.
+<div>
+<p>
+<img src="images/img10_3_4.png"  width="300" align="center"/>
+</p>
+</div>
+
+- User setting - where you can setup personal access tokens for Databricks API, manage GIT integration and notebooks settings 
+- Admin console - where administrator will set IAM policies, security and group access and enabling/disabling additional services as Databricks genomics, Container services, workspaces behaviour, etc.
+- Manage account - will redirect you to start page on Azure dashboard for managing of the Azure account that you are using to access Azure Databricks.
+- Log Out - will log out you from Azure Databricks.
 
 
 This will get you around the platform. Tomorrow we will start exploring the clusters!
