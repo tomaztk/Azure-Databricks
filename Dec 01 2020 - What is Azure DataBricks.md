@@ -17,8 +17,7 @@ to Azure Databricks! </span>
 Azure Databricks is a data analytics platform (PaaS), specially optimised for Microsoft Azure cloud platform. Databricks is an enterprise-grade platform service that is unified for data lake architecture for large analytical operations.
 
 <!-- logo -->
-<!-- <p><img src="https://github.com/tomaztk/Azure-Databricks/blob/main/images/img01_1.png" align="center"/></p> -->
-![](https://github.com/tomaztk/Azure-Databricks/blob/main/images/logo-Databricks.png)
+<p><img src="https://github.com/tomaztk/Azure-Databricks/blob/main/images/logo-databricks.png" align="center" width="400" /></p>
 
 Azure Databricks: End-to-end web-based analytics platform
 
