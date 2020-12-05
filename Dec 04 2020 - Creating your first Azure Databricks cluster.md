@@ -126,14 +126,6 @@ to Azure Databricks! </span>
 <p>Tomorrow we will cover basics on  architecture of clusters, workers, DBFS storage and how Spark handles jobs.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>Complete set of code and Notebooks will be available at the<a rel="noreferrer noopener" href="https://github.com/tomaztk/Azure-Databricks" target="_blank">&nbsp;Github repository</a>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Happy Coding and Stay Healthy!</p>
-<!-- /wp:paragraph -->
-
 
 Complete set of code and Notebooks will be available at the Github repository.
 
