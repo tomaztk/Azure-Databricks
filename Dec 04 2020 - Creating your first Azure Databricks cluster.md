@@ -82,7 +82,7 @@ to Azure Databricks! </span>
 
 <p> 4. Databricks runtime version - is an image of Databricks version that will be created on every cluster. Images are designed for particular type of jobs (Genomics, Machine Learning, Standard workloads) and for different versions of Spark or Databricks.  When selecting the right image, remember the abbreviations and versions. Each image will have a version of Scala / Spark and  there are some significant differences General images will have up to 6 months of bug fixed and 12 months Databricks support. Unless there is LTS (Long time Support) this period will extend to 24 months of support. In addition the ML abbreviation stands for Machine Learning, bringing to image additional packages for machine learning tasks (which can also be added to general image, but out-of-the box solution will be better). And GPU will denote some optimized software for GPU tasks.</p>
 
-div>
+<div>
 <p>
 <img src="images/img16_4_5.png"  width="500" align="center"/>
 </p>
