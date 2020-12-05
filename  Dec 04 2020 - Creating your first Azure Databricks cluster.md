@@ -31,6 +31,12 @@ to Azure Databricks! </span>
 <p>On vertical navigation bar select Clusters in order to get Clusters subpage.</p>
 <!-- /wp:paragraph -->
 
+<div>
+<p>
+<img src="images/img12_4_1.png"  width="800" align="center"/>
+</p>
+</div>
+
 <!-- wp:paragraph -->
 <p>This page will give you the list of existing clusters:</p>
 <!-- /wp:paragraph -->
@@ -43,13 +49,30 @@ to Azure Databricks! </span>
 <p>By clicking on exists Server, you will receive the following informations, which you can configure (not all as they are grayed out as seen on the screen shoot), attach to the notebooks, install additional packages and have access to Spark UI, Driver Logs, Metrics for easier troubleshooting.</p>
 <!-- /wp:paragraph -->
 
+
+<div>
+<p>
+<img src="images/img13_4_2.png"  width="600" align="center"/>
+</p>
+</div>
+
+
 <!-- wp:paragraph -->
 <p>But when selecting and creating a new Azure Databricks cluster, you will get much all attributes available for defining in order to create a cluster tailored to your needs. </p>
 <!-- /wp:paragraph -->
 
+
 <!-- wp:paragraph -->
 <p>You will need to provide the following information for creating a new cluster:</p>
 <!-- /wp:paragraph -->
+
+<div>
+<p>
+<img src="images/img15_4_4.png"  width="600" align="center"/>
+</p>
+</div>
+
+
 
 <p>1. Cluster Name - go creative, but still stick to naming convention and give a name that will also include the Worker Type, Databricks Runtime, Cluster Mode, Pool, Azure Resource Group, Project name (or task you are working on) and environment type (DEV, TEST, UAT, PROD). The more you have, the better</p>
 
@@ -58,6 +81,13 @@ to Azure Databricks! </span>
 <p>3. Pool - as of writing this post, this feature is still in Public preview. It will create a pool of clusters (so you need more predefined clusters) for better response and up-times. Pool keep a defined number of instances in ready-mode (idle) to reduce the cluster start time. Cluster needs to be attached to the pool (after creation of a cluster or if you already have a pool, it will automatically be available) in order to have allocated its driver and worker nodes from the pool.</p>
 
 <p> 4. Databricks runtime version - is an image of Databricks version that will be created on every cluster. Images are designed for particular type of jobs (Genomics, Machine Learning, Standard workloads) and for different versions of Spark or Databricks.  When selecting the right image, remember the abbreviations and versions. Each image will have a version of Scala / Spark and  there are some significant differences General images will have up to 6 months of bug fixed and 12 months Databricks support. Unless there is LTS (Long time Support) this period will extend to 24 months of support. In addition the ML abbreviation stands for Machine Learning, bringing to image additional packages for machine learning tasks (which can also be added to general image, but out-of-the box solution will be better). And GPU will denote some optimized software for GPU tasks.</p>
+
+div>
+<p>
+<img src="images/img16_4_5.png"  width="500" align="center"/>
+</p>
+</div>
+
 
 
 <!-- wp:paragraph -->
@@ -79,6 +109,13 @@ to Azure Databricks! </span>
 <!-- wp:paragraph -->
 <p>Explore also the advanced options, where additional Spark configuration and runtime variables can be set. Very useful when finet-uning the behaviour of the cluster at startup. Add also Tags (as key-value pairs), to keep additional metadata on your cluster, you can also give a Init script that can be stored on DBFS and can initiate some job, load some data or models at the start time.</p>
 <!-- /wp:paragraph -->
+
+
+<div>
+<p>
+<img src="images/img16_4_6.png"  width="600" align="center"/>
+</p>
+</div>
 
 
 <!-- wp:paragraph -->
