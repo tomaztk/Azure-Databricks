@@ -48,4 +48,4 @@ Feel free to get in touch for over [email](mailto:tomaztsql@gmail.com?subject=[G
 Do the usual GitHub fork and pull request dance. Add yourself (or I will add you to the contributors section) if you want to.
 
 
-## Stay safe and healthy
+
