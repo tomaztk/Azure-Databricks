@@ -1,17 +1,19 @@
 <!-- README.md was wriiten in beautiful MacDown  -->
-# Azure Databricks
-
-<img src="images/logo-databricks.png" align="right" width="300" />
+# Microsoft Azure Databricks
 
 <!-- badges: start -->
-![](http://img.shields.io/badge/Azure-Databricks-red.svg)
+![](http://img.shields.io/badge/Azure-Databricks-red.svg) ![](http://img.shields.io/badge/Microsoft-Azure-blue.svg)
 
 <!-- ![](https://img.shields.io/github/forks/tomaztk/azure-databricks?style=social) -->
 <!-- badges: end -->
 
-<span style="font-size: x-large; font-weight: normal;">Azure Databricks repository is 
-a set of blogposts as a Advent of 2020 present to readers for easier onboarding
-to Azure Databricks! </span>
+<img src="images/logo-databricks.png" align="right" width="400" />
+<img src="images/logo-azure.svg"  width="240" />
+
+
+
+<span style="font-size: x-large; font-weight: normal;">Microsoft Azure Databricks repository is 
+a set of blogposts as a **Advent of Azure Databricks** _2020_ presented to readers for easier onboarding with Azure Databricks! </span>
 
 
 ## Table of content / Featured blogposts 
@@ -40,7 +42,7 @@ git clone -n https://github.com/tomaztk/Azure-Databricks.git
 
 
 ## Contact
-Feel free to get in touch for over [email](mailto:tomaztsql@gmail.com?subject=[GithubRepo]%20AzureDatabricks) or follow me:
+Feel free to get in touch over [email](mailto:tomaztsql@gmail.com?subject=[GithubRepo]%20AzureDatabricks) or follow me:
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/tomaz_tsql.svg?style=social&label=Follow%20%40tomaz_tsql)](https://twitter.com/tomaz_tsql)  or on [Blog](https://tomaztsql.wordpress.com).
 
 
