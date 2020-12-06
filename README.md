@@ -42,3 +42,10 @@ git clone -n https://github.com/tomaztk/Azure-Databricks.git
 ## Contact
 Feel free to get in touch for over [email](mailto:tomaztsql@gmail.com?subject=[GithubRepo]%20AzureDatabricks) or follow me:
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/tomaz_tsql.svg?style=social&label=Follow%20%40tomaz_tsql)](https://twitter.com/tomaz_tsql) .
+
+
+## Contributing
+Do the usual GitHub fork and pull request dance. Add yourself (or I will add you to the contributors section) if you want to.
+
+## License
+Released under the MIT license.
