@@ -70,3 +70,143 @@ to Azure Databricks! </span>
 <!-- wp:paragraph -->
 <p>If your clusters are not started, you can still create a notebook and later attach selected cluster to notebook.</p>
 <!-- /wp:paragraph -->
+
+<div>
+<p>
+<img src="images/img42_7_3.png" width="600" align="center"/>
+</p>
+</div>
+
+
+<!-- wp:paragraph -->
+<p>Notebook consists of cells that can be either formatted text or code. Notebooks are saved automatically. Under File, you will find useful functions to manage your notebooks, as: Move, Clone, Rename, Upload, Export.  Under menu Edit, you will be able to work with cells, and code blocks. Run all is a quick function to execute all cells at one time (or if you prefer you can run a cell one by one, or selected cell all below or above). Once you start writing formatted text (Markdown, HTML, others), Databricks will automatically start building <em>Table of content</em>, giving you better overview of your content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Let's start with Markdown and write the title and some text to notebook and adding some Python code. I have inserted:</p>
+<!-- /wp:paragraph -->
+
+
+<!-- wp:syntaxhighlighter/code -->
+<pre class="wp-block-syntaxhighlighter-code">%md # Day 7 - Advent of Azure Databricks 2020
+
+%md 
+## Welcome to day 7.
+In this document we will explore how to write notebook, use different languages import file.
+
+%md Default language in this notebook is Python. So if we want to add a text cell, instead of Python, we need to explicitly
+set **%md** at the beginning of each cell. In this way, language of execution  will be re-defined.
+
+%md Now, let's start using Python
+
+dbutils.fs.put("/FileStore/Day7/SaveContent.txt", 'This is the sample')</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>And the result was a perfect Notebook with Heading, subtitle and text. In the middle the Table of content is generated automatically.</p>
+<!-- /wp:paragraph -->
+
+
+<div>
+<p>
+<img src="images/img42_7_4.png" width="800" align="center"/>
+</p>
+</div>
+
+<!-- wp:paragraph -->
+<p>Under view, changing from Standard to side-by-side and you can see the code and converted code as notebook on the other-side. Useful for copying, changing or debugging the code.</p>
+<!-- /wp:paragraph -->
+
+
+<div>
+<p>
+<img src="images/img43_7_5.png" width="800" align="center"/>
+</p>
+</div>
+
+<!-- wp:paragraph -->
+<p>Each cell text has <strong>%md</strong> at the beginning, for converting text to rich text - Markdown. The last cell is Python</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code -->
+<pre class="wp-block-syntaxhighlighter-code">dbutils.fs.put("/FileStore/Day7/SaveContent.txt", 'This is the sample')</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>That generated a txt file to Filestore. File can be also seen in the left pane. <a rel="noreferrer noopener" href="https://docs.databricks.com/dev-tools/databricks-utils.html" target="_blank">DbUtils - Databricks utils</a> is a set of utility tools for efficiently working with object storage. dbUtils are available in R, Python and Scala.</p>
+<!-- /wp:paragraph -->
+
+
+### Importing file
+
+<!-- wp:paragraph -->
+<p>In Notebook we have the ability to use multiple languages. Mixing Python with Bash and Spark and R is something common. But in this case, we will use DbUtils - powerful set of functions. Learn to like it, because it will be utterly helpful. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Let us explore the Bash and R to import the file into data.frame.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code -->
+<pre class="wp-block-syntaxhighlighter-code">dbutils.fs.ls("dbfs:/FileStore")
+df = spark.read.text("dbfs:/FileStore/Day6Data_dbfs.csv")
+
+df.show()</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>And the results is:</p>
+<!-- /wp:paragraph -->
+
+
+<div>
+<p>
+<img src="images/img44_7_6.png" width="800" align="center"/>
+</p>
+</div>
+
+
+<!-- wp:paragraph -->
+<p>And do the same for R Language:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code -->
+<pre class="wp-block-syntaxhighlighter-code">%r library(dplyr)
+
+%r Day6_df &lt;- read.csv(file = "/dbfs/FileStore/Day6Data_dbfs.csv", sep=";")
+head(Day6_df)
+Day6_df &lt;- data.frame(Day6_df)
+
+%md Let's do a quick R analysis
+
+%r 
+library(dplyr)
+Day6_df %>%
+  group_by(city) %>%
+  summarise(mean = mean(mean_daily_temp), n = n())</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>And the result is the same, just using R Language.</p>
+<!-- /wp:paragraph -->
+
+
+<div>
+<p>
+<img src="images/img45_7_7.png" width="800" align="center"/>
+</p>
+</div>
+
+
+<!-- wp:paragraph -->
+<p>Tomorrow we will use Databricks CLI and DBFS API to upload the files from e.g.: your client machine to filestore. In this way, you will be able to migrate and upload file to Azure Databricks in no time.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Complete set of code and Notebooks will be available at the<a rel="noreferrer noopener" href="https://github.com/tomaztk/Azure-Databricks" target="_blank">&nbsp;Github repository</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Happy Coding and Stay Healthy!</p>
+<!-- /wp:paragraph -->
+
