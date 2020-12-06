@@ -27,7 +27,9 @@ to Azure Databricks! </span>
 9. Dec 09 2020 - TBD
 
 
+## Blog
 
+All posts were originally posted on my [blog - URL: tomaztsql.wordpress.com](https://tomaztsql.wordpress.com) and made copy here at Github. On Github is extremely simple to clone the code, markdown file and all the materials.
 
 ## Cloning the repository
 You can follow the steps below to clone the repository.
@@ -35,7 +37,6 @@ You can follow the steps below to clone the repository.
 ```
 git clone -n https://github.com/tomaztk/Azure-Databricks.git
 ```
-
 
 
 ## Contact
