@@ -53,9 +53,19 @@ to Azure Databricks! </span>
 
 
 <!-- wp:paragraph -->
-<p>Drag the data file (available on <a rel="noreferrer noopener" href="https://github.com/tomaztk/Azure-Databricks/tree/main/data" target="_blank">Github in data folder</a>) named Day6data.csv to square for upload.  But before you start with uploading the data, let's check the Azure resource group. I have not yet started any Databricks cluster in my workspace. And here you can see that Vnet, Storage and Network Security group will always be available for Azure Databricks service. Only when you start the cluster, additional services (IP addresses, disks, VM,...) will appear.</p>
+<p>Drag the data file (available on <a rel="noreferrer noopener" href="https://github.com/tomaztk/Azure-Databricks/tree/main/data" target="_blank">Github in data folder</a>) named Day6data.csv to square for upload.  For easier understanding, let's check the CSV file schema (simple one, three columns: 1. Date (datetime format), 2. Temperature (integer format), 3. City (string format)).</p>
 <!-- /wp:paragraph -->
 
+
+<div>
+<p>
+<img src="images/img32_6_9.png"  width="200" align="center"/>
+</p>
+</div>
+
+<!-- wp:paragraph -->
+<p>But before you start with uploading the data, let's check the Azure resource group. I have not yet started any Databricks cluster in my workspace. And here you can see that Vnet, Storage and Network Security group will always be available for Azure Databricks service. Only when you start the cluster, additional services (IP addresses, disks, VM,...) will appear.</p>
+<!-- /wp:paragraph -->
 
 <div>
 <p>
