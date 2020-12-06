@@ -22,14 +22,14 @@ to Azure Databricks! </span>
 4. [Dec 04 2020 - Creating your first Azure Databricks cluster](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2004%202020%20-%20Creating%20your%20first%20Azure%20Databricks%20cluster.md) ([blogspot](https://tomaztsql.wordpress.com/2020/12/04/advent-of-2020-day-4-creating-your-first-azure-databricks-cluster/))
 5. [Dec 05 2020 - Basics on architecture of clusters, workers, DBFS storage jobs](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2005%202020%20-%20Understanding%20Azure%20Databricks%20cluster%20architecture%2C%20workers%2C%20drivers%20and%20jobs.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/05/advent-of-2020-day-5-understanding-azure-databricks-cluster-architecture-workers-drivers-and-jobs/))
 6. [Dec 06 2020 -  Importing and storing data to Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2006%202020%20-%20Importing%20and%20storing%20data%20to%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/06/advent-of-2020-day-6-importing-and-storing-data-to-azure-databricks/))
-7. Dec 07 2020 - Starting with Databricks notebooks and loading data
+7. [Dec 07 2020 - Starting with Databricks notebooks and loading data](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2007%202020%20-%20Starting%20with%20Databricks%20notebooks%20and%20loading%20data%20to%20DBFS.md)
 8. Dec 08 2020 - TBD
 9. Dec 09 2020 - TBD
 
 
 ## Blog
 
-All posts were originally posted on my [blog - URL: tomaztsql.wordpress.com](https://tomaztsql.wordpress.com) and made copy here at Github. On Github is extremely simple to clone the code, markdown file and all the materials.
+All posts were originally posted on my [blog](https://tomaztsql.wordpress.com) and made copy here at Github. On Github is extremely simple to clone the code, markdown file and all the materials.
 
 ## Cloning the repository
 You can follow the steps below to clone the repository.
@@ -48,3 +48,4 @@ Feel free to get in touch for over [email](mailto:tomaztsql@gmail.com?subject=[G
 Do the usual GitHub fork and pull request dance. Add yourself (or I will add you to the contributors section) if you want to.
 
 
+## Stay safe and healthy
