@@ -28,6 +28,7 @@ a set of blogposts as a **Advent of Azure Databricks** _2020_ presented to reade
 7. [Dec 07 2020 - Starting with Databricks notebooks and loading data](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2007%202020%20-%20Starting%20with%20Databricks%20notebooks%20and%20loading%20data%20to%20DBFS.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/07/advent-of-2020-day-7-starting-with-databricks-notebooks-and-loading-data-to-dbfs/))
 8. Dec 08 2020 - Using Databricks CLI and DBFS API for file upload ([blogpost])
 9. Dec 09 2020 - TBD
+10. Dec 10 2020 - TBD
 
 
 ## Blog
