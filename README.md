@@ -3,7 +3,7 @@
 
 <!-- badges: start -->
 ![](http://img.shields.io/badge/Azure-Databricks-red.svg) ![](http://img.shields.io/badge/Microsoft-Azure-blue.svg) 
-![HitCount](http://hits.dwyl.com/tomaztk/Azure-Databricks.svg) 
+[![HitCount](http://hits.dwyl.com/tomaztk/Azure-Databricks.svg)](http://hits.dwyl.com/tomaztk/Azure-Databricks)
 ![](https://img.shields.io/github/forks/tomaztk/azure-databricks?style=social)
 <!-- badges: end -->
 
