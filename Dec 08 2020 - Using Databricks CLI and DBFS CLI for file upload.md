@@ -59,18 +59,165 @@ to Azure Databricks! </span>
 
 ### 2. Authentication with Personal Access Token
 
+<!-- wp:paragraph -->
+<p>On your Azure  Databricks Workspace home screen go to settings:</p>
+<!-- /wp:paragraph -->
 
 <div>
 <p>
-<img src="images/img_7_1.png" width="500" align="center"/>
+<img src="images/img46_8_2.png" width="400" align="center"/>
+</p>
+</div>
+
+<!-- wp:paragraph -->
+<p>And select User settings to get the list of Access Tokens.</p>
+<!-- /wp:paragraph -->
+
+<div>
+<p>
+<img src="images/img47_8_3.png" width="600" align="center"/>
 </p>
 </div>
 
 
-e
-e
+<!-- wp:paragraph -->
+<p>Click on Generate New Token and in dialog window, give a token name and lifetime.</p>
+<!-- /wp:paragraph -->
+
+<div>
+<p>
+<img src="images/img48_8_4.png" width="400" align="center"/>
+</p>
+</div>
+
+<!-- wp:paragraph -->
+<p>After the token is generated, make sure to copy, because you will not be able to see it later. Token can be revoked (when needed), otherwise it has a expiry date (in my case 90 days). So make sure to remember to renew it after the lifetime period!</p>
+<!-- /wp:paragraph -->
 
 
+### 3. Working with CLI
 
 
-e
+<!-- wp:paragraph -->
+<p>Go back to CMD and run the following:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code -->
+<pre class="wp-block-syntaxhighlighter-code">databricks --version</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>will give you the current version you are rocking. After that, let's configure the connectivity.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code -->
+<pre class="wp-block-syntaxhighlighter-code">databricks configure --token</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>and you will be prompted to insert two information (!)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>the host ( in my case: https://adb-8606925487212195.15.azuredatabricks.net/)</li><li> the token </li></ul>
+<!-- /wp:list -->
+
+<div>
+<p>
+<img src="images/img49_8_5.png" width="500" align="center"/>
+</p>
+</div>
+
+<!-- wp:paragraph -->
+<p>Host is is available for you in your browser. Go to Azure databricks tab/Browser and copy paste the URL:</p>
+<!-- /wp:paragraph -->
+
+
+<div>
+<p>
+<img src="images/img50_8_6.png" width="700" align="center"/>
+</p>
+</div>
+
+<!-- wp:paragraph -->
+<p>And the token, that  has been generated for you in step two. Token should look like: <em>dapib166345f2938xxxxxxxxxxxxxxc</em>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p> Once you insert both information,  the connection is set!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>By using bash commands, now you can work with DBFS from your local machine / server using CLI. For example:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code -->
+<pre class="wp-block-syntaxhighlighter-code">databricks fs ls</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>will list all the files on root folder of DBFS of your Azure Databricks</p>
+<!-- /wp:paragraph -->
+
+<div>
+<p>
+<img src="images/img51_8_7.png" width="700" align="center"/>
+</p>
+</div>
+
+<!-- wp:paragraph -->
+### 4. Uploading file using DBFS CLI
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Databricks has already shorthanded / aliased <em>databricks fs </em>command to simply <em>dbfs</em>. Essentially following commands are equivalent:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code -->
+<pre class="wp-block-syntaxhighlighter-code">databricks fs ls
+dbfs ls</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>so using DBFS CLI means in otherwords using Databricks FileStore CLI. And with this, we can start copying a file. So copying from my local machine to Azure Databricks should look like:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code -->
+<pre class="wp-block-syntaxhighlighter-code">dbfs cp /mymachine/test_dbfs.txt dbfs:/FileStore/file_dbfs.txt</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<div>
+<p>
+<img src="images/img52_8_8.png" width="800" align="center"/>
+</p>
+</div>
+
+<!-- wp:paragraph -->
+<p>My complete bash code (as seen on the screen shot) is:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:syntaxhighlighter/code -->
+<pre class="wp-block-syntaxhighlighter-code">pwd
+touch test_dbfs.txt
+dbfs cp test_dbfs.txt dbfs:/FileStore/file_dbfs.txt</pre>
+<!-- /wp:syntaxhighlighter/code -->
+
+<!-- wp:paragraph -->
+<p>And after refreshing the data on my Databricks workspace, you can see that the file is there. Commands pwd and touch are here merely for demonstration.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This approach can be heavily automated for daily data loads to Azure Databricks, delta uploads, data migration or any other data engineering and data movement task. And also note, that Databricks CLI is a powerful tool with broader usage. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tomorrow we will check how to connect Azure Blob storage with Azure Databricks and how to read data from Blob Storage in Notebooks.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Complete set of code and Notebooks will be available at the<a rel="noreferrer noopener" href="https://github.com/tomaztk/Azure-Databricks" target="_blank">&nbsp;Github repository</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Happy Coding and Stay Healthy!</p>
+<!-- /wp:paragraph -->
