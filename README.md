@@ -26,9 +26,11 @@ a set of blogposts as a **Advent of Azure Databricks** _2020_ presented to reade
 5. [Dec 05 2020 - Basics on architecture of clusters, workers, DBFS storage jobs](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2005%202020%20-%20Understanding%20Azure%20Databricks%20cluster%20architecture%2C%20workers%2C%20drivers%20and%20jobs.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/05/advent-of-2020-day-5-understanding-azure-databricks-cluster-architecture-workers-drivers-and-jobs/))
 6. [Dec 06 2020 -  Importing and storing data to Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2006%202020%20-%20Importing%20and%20storing%20data%20to%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/06/advent-of-2020-day-6-importing-and-storing-data-to-azure-databricks/))
 7. [Dec 07 2020 - Starting with Databricks notebooks and loading data](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2007%202020%20-%20Starting%20with%20Databricks%20notebooks%20and%20loading%20data%20to%20DBFS.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/07/advent-of-2020-day-7-starting-with-databricks-notebooks-and-loading-data-to-dbfs/))
-8. Dec 08 2020 - Using Databricks CLI and DBFS API for file upload ([blogpost])
-9. Dec 09 2020 - TBD
+8. [Dec 08 2020 - Using Databricks CLI and DBFS CLI for file upload](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2008%202020%20-%20Using%20Databricks%20CLI%20and%20DBFS%20CLI%20for%20file%20upload.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/08/advent-of-2020-day-8-using-databricks-cli-and-dbfs-cli-for-file-upload/))
+9. Dec 09 2020 - Connect Azure Blob storagea with Azure Databricks and read data from Blob Storage using Notebooks ([blogpost])
 10. Dec 10 2020 - TBD
+11. Dec 11 2020 - TBD
+12. Dec 12 2020 - TBD
 
 
 ## Blog
