@@ -3,10 +3,7 @@
 
 <!-- badges: start -->
 ![](http://img.shields.io/badge/Azure-Databricks-red.svg) ![](http://img.shields.io/badge/Microsoft-Azure-blue.svg) 
-
-<!-- [![HitCount](http://hits.dwyl.com/tomaztk/Azure-Databricks.svg)](http://hits.dwyl.com/tomaztk/Azure-Databricks) -->
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftomaztk%2FAzure-Databricks&count_bg=%2379C83D&title_bg=%23555555&icon=microsoftazure.svg&icon_color=%230A6BFF&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-
 ![](https://img.shields.io/github/forks/tomaztk/azure-databricks?style=social)
 <!-- badges: end -->
 
