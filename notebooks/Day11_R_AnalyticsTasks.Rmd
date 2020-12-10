@@ -1,0 +1,120 @@
+
+---
+title: "Day11_R_AnalyticsTasks"
+output:
+  html_document:
+    toc: true
+---
+
+
+```{r}
+%md
+# Using Azure Databricks Notebooks with R Language for analytics
+```
+
+## Getting data from SQL Table and DBFS files
+
+```{r}
+%sql
+USE Day10;
+ 
+SELECT * FROM temperature
+```
+
+
+```{r}
+library(SparkR)
+```
+
+Getting Query results in R data frame (using SparkR R library)
+
+```{r}
+temp_df <- sql("SELECT * FROM temperature")
+```
+
+
+```{r}
+showDF(temp_df)
+```
+
+
+```{r}
+df <- as.data.frame(temp_df)
+```
+
+Creating standard R data.frame
+
+```{r}
+df
+```
+
+## Importing CSV file into R data.frame
+
+```{r}
+Day6 <- read.df("dbfs:/FileStore/Day6Data_dbfs.csv", source = "csv", header="true", inferSchema = "true")
+head(Day6)
+```
+
+## Doing simple analysis and visualisations
+
+```{r}
+library(ggplot2)
+p <- ggplot(df, aes(date, mean_daily_temp)) 
+p <- p + geom_jitter() + facet_wrap(~city)
+p
+
+```
+
+
+```{r}
+options(repr.plot.height = 500, repr.plot.res = 120)
+p + geom_point(aes(color = city)) + geom_smooth() + 
+   theme_bw()
+```
+
+
+```{r}
+library(dplyr)
+```
+
+
+```{r}
+df %>%
+  dplyr::group_by(city) %>%
+  dplyr::summarise(
+       n = dplyr::n()
+      ,mean_pos = mean(as.integer(df$mean_daily_temp))
+ ) 
+#%>% dplyr::filter( as.integer(df$date) > "2020/12/01")
+```
+
+Will work, but because Spark R has same function (arrange, between, coalesce, 
+collect, contains, count, cume_dist,
+dense_rank, desc, distinct, explain, filter, first, group_by,
+intersect, lag, last, lead, mutate, n, n_distinct, ntile,
+percent_rank, rename, row_number, sample_frac, select, sql,
+summarize, union), we need to we need to detach (detach("package:dplyr")) the dplyr package, or we instance the package by: dplyr::summarise instead of summarize
+## And a simple linear regression
+
+```{r}
+model <- lm(mean_daily_temp ~ city + date, data = df)
+model
+```
+
+
+```{r}
+summary(model)
+```
+
+
+```{r}
+confint(model)
+```
+
+
+```{r}
+install.packages("car")
+library(car)
+residualPlot(model)
+```
+
