@@ -31,9 +31,10 @@ a set of blogposts as a **Advent of Azure Databricks** _2020_ presented to reade
 10. [Dec 10 2020 - Using Azure Databricks Notebooks with SQL for Data engineering tasks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2010%202020%20-%20Using%20Azure%20Databricks%20Notebooks%20with%20SQL%20for%20Data%20engineering%20tasks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/10/advent-of-2020-day-10-using-azure-databricks-notebooks-with-sql-for-data-engineering-tasks/))
 11. [Dec 11 2020 - Using Azure Databricks Notebooks with R to do Data engineerg and data analytics](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2011%202020%20-%20Using%20Azure%20Databricks%20Notebooks%20with%20SQL%20for%20Data%20engineering%20tasks.md)) ([blogpost](https://tomaztsql.wordpress.com/2020/12/11/advent-of-2020-day-11-using-azure-databricks-notebooks-with-r-language-for-data-analytics/))
 12. [Dec 12 2020 - Using Azure Databricks Notebooks with Python to do Data engineerg and data analytics](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2012%202020%20-%20Using%20Azure%20Databricks%20Notebooks%20with%20Python%20Language%20for%20data%20analytics.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/12/advent-of-2020-day-12-using-azure-databricks-notebooks-with-python-language-for-data-analytics/))
-13. Dec 13 2020 - Using Python Koalas Databricks with Azure Databricks
-14. Dec 14 2020 - TBD
+13. [Dec 13 2020 - Using Python Databricks Koalas with Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2013%202020%20-%20Using%20Python%20Databricks%20Koalas%20with%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/13/advent-of-2020-day-13-using-python-databricks-koalas-with-azure-databricks/))
+14. Dec 14 2020 - Databricks jobs,  from configuration to execution and troubleshooting (blogpost)
 15. Dec 15 2020 - TBD
+16. Dec 16 2020 - TBD
 
 
 ## Blog
