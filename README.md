@@ -34,7 +34,7 @@ a set of blogposts as a **Advent of Azure Databricks** _2020_ presented to reade
 13. [Dec 13 2020 - Using Python Databricks Koalas with Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2013%202020%20-%20Using%20Python%20Databricks%20Koalas%20with%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/13/advent-of-2020-day-13-using-python-databricks-koalas-with-azure-databricks/))
 14. [Dec 14 2020 - From configuration to execution of Databricks jobs](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2014%202020%20-%20%20From%20configuration%20to%20execution%20of%20Databricks%20jobs.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/14/advent-of-2020-day-14-from-configuration-to-execution-of-databricks-jobs/))
 15. [Dec 15 2020 - Databricks Spark UI, Event Logs, Driver logs and Metrics](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2015%202020%20-%20Databricks%20Spark%20UI%2C%20Event%20Logs%2C%20Driver%20logs%20and%20Metrics.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/15/advent-of-2020-day-15-databricks-spark-ui-event-logs-driver-logs-and-metrics/))
-16. Dec 16 2020 - Databricks Models and MLFlow
+16. [Dec 16 2020 - Databricks experiments, models and MLFlow](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2016%202020%20-%20Databricks%20experiments%2C%20models%20and%20MLFlow.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/16/advent-of-2020-day-16-databricks-experiments-models-and-mlflow/))
 17. Dec 17 2020 - TBD
 18. Dec 18 2020 - TBD
 19. Dec 19 2020 - TBD
