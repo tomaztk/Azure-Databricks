@@ -1,0 +1,132 @@
+
+---
+title: "Day16_MLflow"
+output:
+  html_document:
+    toc: true
+---
+
+# MLflow Starting with experiments
+### Attach cluster to notebook
+
+I have named my notebook as _Day16_MLflow_ using *R* Language.
+
+If you are using Databricks Runtime cluster without *ML* suffix (Databricks runtime for Machine Learning), you need to install the following packages.
+
+Installation (if your cluster is not Databricks runtime for Machine Learning)
+- go to Cluster
+- select Libraries
+- Select "% install new"
+- For R environemnt select CRAN repository and select the package name _mlflow_
+- click ok and wait.
+- after successfull installation, return to this notebook to load the library
+
+```{r}
+library(mlflow)
+install_mlflow()
+```
+
+Now we can use MLflow tracking API to capture runs (with  artifacts) for this notebook
+
+```{r}
+mlflow_start_run()
+```
+
+
+```{r}
+# Log a parameter (key-value pair)
+mlflow_log_param("test_run_nof_runs_param1", 5)
+
+# Log a metric; metrics can be updated throughout the run
+mlflow_log_metric("RMSE", 2, step = 1)
+mlflow_log_metric("RMSE", 4, step = 2)
+mlflow_log_metric("RMSE", 6, step = 3)
+mlflow_log_metric("RMSE", 8, step = 4)
+mlflow_log_metric("RMSE", 1, step = 5)
+# Log an artifact (output file)
+
+write("This is R code from Azure Databricks notebook", file = "output.txt")
+
+mlflow_log_artifact("output.txt")
+
+```
+
+
+```{r}
+mlflow_end_run()
+```
+
+You can also in advance create an experiment and use it here.
+Presume, that you have created a "new experiment" and named it: RunExperiment.
+Let's create a model and wrapping it in MLflow
+
+```{r}
+library(mlflow)
+library(glmnet)
+library(carrier)
+```
+
+
+```{r}
+library(SparkR)
+
+data <- read.df("/FileStore/Day16_wine_quality.csv", source = "csv", header="true")
+
+display(data)
+data <- as.data.frame(data)
+```
+
+
+```{r}
+#detaching the package due to data type conflicts
+detach("package:SparkR", unload=TRUE)
+```
+
+
+```{r}
+# Split the data into training and test sets. (0.75, 0.25) split.
+sampled <- sample(1:nrow(data), 0.75 * nrow(data))
+train <- data[sampled, ]
+test <- data[-sampled, ]
+
+# The predicted column is "quality" which is a scalar from [3, 9]
+train_x <- as.matrix(train[, !(names(train) == "quality")])
+test_x <- as.matrix(test[, !(names(train) == "quality")])
+train_y <- train[, "quality"]
+test_y <- test[, "quality"]
+
+alpha <- mlflow_param("alpha", 0.5, "numeric")
+lambda <- mlflow_param("lambda", 0.5, "numeric")
+```
+
+
+```{r}
+mlflow_start_run()
+
+model <- glmnet(train_x, train_y, alpha = alpha, lambda = lambda, family= "gaussian", standardize = FALSE)
+predictor <- crate(~ glmnet::predict.glmnet(!!model, as.matrix(.x)), !!model)
+predicted <- predictor(test_x)
+
+rmse <- sqrt(mean((predicted - test_y) ^ 2))
+mae <- mean(abs(predicted - test_y))
+r2 <- as.numeric(cor(predicted, test_y) ^ 2)
+
+message("Elasticnet model (alpha=", alpha, ", lambda=", lambda, "):")
+message("  RMSE: ", rmse)
+message("  MAE: ", mae)
+message("  R2: ", r2)
+
+mlflow_log_param("alpha", alpha)
+mlflow_log_param("lambda", lambda)
+mlflow_log_metric("rmse", rmse)
+mlflow_log_metric("r2", r2)
+mlflow_log_metric("mae", mae)
+
+mlflow_log_model(
+predictor, 
+artifact_path = "model", 
+registered_model_name = "wine-quality")
+
+mlflow_end_run()
+```
+
