@@ -36,8 +36,10 @@ a set of blogposts as a **Advent of Azure Databricks** _2020_ presented to reade
 15. [Dec 15 2020 - Databricks Spark UI, Event Logs, Driver logs and Metrics](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2015%202020%20-%20Databricks%20Spark%20UI%2C%20Event%20Logs%2C%20Driver%20logs%20and%20Metrics.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/15/advent-of-2020-day-15-databricks-spark-ui-event-logs-driver-logs-and-metrics/))
 16. [Dec 16 2020 - Databricks experiments, models and MLFlow](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2016%202020%20-%20Databricks%20experiments%2C%20models%20and%20MLFlow.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/16/advent-of-2020-day-16-databricks-experiments-models-and-mlflow/))
 17. [Dec 17 2020 - End-to-End Machine learning project in Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2017%202020%20-%20End-to-End%20Machine%20learning%20project%20in%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/17/advent-of-2020-day-17-end-to-end-machine-learning-project-in-azure-databricks/))
-18. Dec 18 2020 - Using Azure Data Factory with Azure Databricks.
+18. [Dec 18 2020 - Using Azure Data Factory with Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2018%202020%20-%20Using%20Azure%20Data%20Factory%20with%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/18/advent-of-2020-day-18-using-azure-data-factory-with-azure-databricks/))
 19. Dec 19 2020 - TBD
+20. Dec 20 2020 - TBD
+21. Dec 21 2020 - TBD
 
 
 ## Blog
