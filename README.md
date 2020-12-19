@@ -38,7 +38,8 @@ a set of blogposts as a **Advent of Azure Databricks** _2020_ presented to reade
 17. [Dec 17 2020 - End-to-End Machine learning project in Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2017%202020%20-%20End-to-End%20Machine%20learning%20project%20in%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/17/advent-of-2020-day-17-end-to-end-machine-learning-project-in-azure-databricks/))
 18. [Dec 18 2020 - Using Azure Data Factory with Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2018%202020%20-%20Using%20Azure%20Data%20Factory%20with%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/18/advent-of-2020-day-18-using-azure-data-factory-with-azure-databricks/))
 19. [Dec 19 2020 - Using Azure Data Factory with Azure Databricks for merging CSV files](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2019%202020%20-%20Using%20Azure%20Data%20Factory%20with%20Azure%20Databricks%20for%20merging%20CSV%20files.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/19/advent-of-2020-day-19-using-azure-data-factory-with-azure-databricks-for-merging-csv-files/))
-20. Dec 20 2020 - Using two  (multiple)  notebooks with Scala and Python (blogpost)
+20. [Dec 20 2020 - Orchestrating multiple notebooks with Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2020%202020%20-%20Orchestrating%20multiple%20notebooks%20with%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/16/advent-of-2020-day-16-databricks-experiments-models-and-mlflow/
+))
 21. Dec 21 2020 - TBD
 22. Dec 22 2020 - TBD
 23. Dec 23 2020 - TBD
