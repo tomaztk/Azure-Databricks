@@ -40,7 +40,7 @@ a set of blogposts as a **Advent of Azure Databricks** _2020_ presented to reade
 19. [Dec 19 2020 - Using Azure Data Factory with Azure Databricks for merging CSV files](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2019%202020%20-%20Using%20Azure%20Data%20Factory%20with%20Azure%20Databricks%20for%20merging%20CSV%20files.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/19/advent-of-2020-day-19-using-azure-data-factory-with-azure-databricks-for-merging-csv-files/))
 20. [Dec 20 2020 - Orchestrating multiple notebooks with Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2020%202020%20-%20Orchestrating%20multiple%20notebooks%20with%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/16/advent-of-2020-day-16-databricks-experiments-models-and-mlflow/
 ))
-21. Dec 21 2020 - TBD
+21. [Dec 21 2020 - Using Scala with Spark Core API in Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2021%202020%20-%20Using%20Scala%20with%20Spark%20Core%20API%20in%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/21/advent-of-2020-day-21-using-scala-with-spark-core-api-in-azure-databricks/))
 22. Dec 22 2020 - TBD
 23. Dec 23 2020 - TBD
 24. Dec 24 2020 - TBD
