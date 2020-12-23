@@ -42,8 +42,16 @@ a set of blogposts as a **Advent of Azure Databricks** _2020_ presented to reade
 ))
 21. [Dec 21 2020 - Using Scala with Spark Core API in Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2021%202020%20-%20Using%20Scala%20with%20Spark%20Core%20API%20in%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/21/advent-of-2020-day-21-using-scala-with-spark-core-api-in-azure-databricks/))
 22. [Dec 22 2020 - Using Spark SQL and DataFrames in Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2022%202020%20-%20Using%20Spark%20SQL%20and%20DataFrames%20in%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/22/advent-of-2020-day-22-using-spark-sql-and-dataframes-in-azure-databricks/))
-23. Dec 23 2020 - TBD
-24. Dec 24 2020 - TBD
+23. [Dec 23 2020 - Using Spark Streaming in Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2023%202020%20-%20Using%20Spark%20Streaming%20in%20Azure%20Databricks.md)([blogpost](https://tomaztsql.wordpress.com/2020/12/23/advent-of-2020-day-23-using-spark-streaming-in-azure-databricks/))
+24. Dec 24 2020 - Using Spark MLlib for Machine Learning in Azure Databricks
+25. Dec 25 2020 - Using GraphX in Azure Databricks
+26. Dec 26 2020 - Connecting Azure Machine Learning Services Workspace and Azure Databricks
+27. Dec 27 2020 - Connecting Azure Databricks with on-prem environment
+28. Dec 28 2020 - TBD
+29. Dec 29 2020 - TBD
+30. Dec 30 2020 - TBD
+31. Dec 31 2020 - TBD
+
 
 ## Blog
 
