@@ -83,4 +83,4 @@ Do the usual GitHub fork and pull request dance. Add yourself (or I will add you
 
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/) © Tomaž Kaštrun
