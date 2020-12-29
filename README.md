@@ -48,7 +48,7 @@ a set of blogposts as a **Advent of Azure Databricks** _2020_ presented to reade
 26. [Dec 26 2020 - Connecting Azure Machine Learning Services Workspace and Azure Databricks](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2026%202020%20-%20Connecting%20Azure%20Machine%20Learning%20Services%20Workspace%20and%20Azure%20Databricks.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/26/advent-of-2020-day-26-connecting-azure-machine-learning-services-workspace-and-azure-databricks/))
 27. [Dec 27 2020 - Connecting Azure Databricks with on premise environment](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2027%202020%20-%20Connecting%20Azure%20Databricks%20with%20on%20premise%20environment.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/27/advent-of-2020-day-27-connecting-azure-databricks-with-on-premise-environment/))
 28. [Dec 28 2020 - Infrastructure as Code and how to automate, script and deploy Azure Databricks with Powershell](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2028%202020%20-%20Infrastructure%20as%20Code%20and%20how%20to%20automate%2C%20script%20and%20deploy%20Azure%20Databricks%20with%20Powershell.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/28/advent-of-2020-day-28-infrastructure-as-code-and-how-to-automate-script-and-deploy-azure-databricks-with-powershell/))
-29. Dec 29 2020 - Apache Spark
+29. [Dec 29 2020 - Performance tuning for Apache Spark](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2029%202020%20-%20Performance%20tuning%20for%20Apache%20Spark.md) (blogpost())
 30. Dec 30 2020 - TBD
 31. Dec 31 2020 - TBD
 
