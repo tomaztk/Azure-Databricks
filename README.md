@@ -64,10 +64,8 @@ You can follow the steps below to clone the repository.
 git clone -n https://github.com/tomaztk/Azure-Databricks.git
 ```
 
-
 ## Contact
 Get in contact:
-
 
  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&)](mailto:tomaztsql@gmail.com?subject=[GithubRepo]%20AzureDatabricks)
  
@@ -79,7 +77,7 @@ Get in contact:
 
 
 ## Contributing
-Do the usual GitHub fork and pull request dance. Add yourself (or I will add you to the contributors section) if you want to.
+Do the usual GitHub fork and pull request dance. Add yourself (or I will add you to the contributors section) if you want to. 
 
 
 ## License
