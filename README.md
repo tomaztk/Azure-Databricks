@@ -80,5 +80,6 @@ Get in contact:
 Do the usual GitHub fork and pull request dance. Add yourself (or I will add you to the contributors section) if you want to. 
 
 
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/) © Tomaž Kaštrun
