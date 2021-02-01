@@ -12,7 +12,6 @@
 <img src="images/logo-azure.svg"  width="240" />
 
 
-
 <span style="font-size: x-large; font-weight: normal;">Microsoft Azure Databricks repository is 
 a set of blogposts as a **Advent of Azure Databricks** _2020_ presented to readers for easier onboarding with Azure Databricks! </span>
 
@@ -50,7 +49,7 @@ a set of blogposts as a **Advent of Azure Databricks** _2020_ presented to reade
 28. [Dec 28 2020 - Infrastructure as Code and how to automate, script and deploy Azure Databricks with Powershell](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2028%202020%20-%20Infrastructure%20as%20Code%20and%20how%20to%20automate%2C%20script%20and%20deploy%20Azure%20Databricks%20with%20Powershell.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/28/advent-of-2020-day-28-infrastructure-as-code-and-how-to-automate-script-and-deploy-azure-databricks-with-powershell/))
 29. [Dec 29 2020 - Performance tuning for Apache Spark](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2029%202020%20-%20Performance%20tuning%20for%20Apache%20Spark.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/29/advent-of-2020-day-29-performance-tuning-of-apache-spark/))
 30. [Dec 30 2020 - Monitoring and troubleshooting of Apache Spark](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2030%202020%20-%20Monitoring%20and%20troubleshooting%20of%20Apache%20Spark.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/30/advent-of-2020-day-30-monitoring-and-troubleshooting-of-apache-spark/))
-31. [Dec 31 2020 - Azure Databricks documentation, learning materials and additional resources](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2031%202020%20-%20Azure%20Databricks%20documentation%2C%20learning%20materials%20and%20additional%20resources.md) ([blogpost]())
+31. [Dec 31 2020 - Azure Databricks documentation, learning materials and additional resources](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2031%202020%20-%20Azure%20Databricks%20documentation%2C%20learning%20materials%20and%20additional%20resources.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/31/advent-of-2020-day-31-azure-databricks-documentation-learning-materials-and-additional-resources/))
 
 
 ## Blog
