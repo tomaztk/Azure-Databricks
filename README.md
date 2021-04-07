@@ -79,6 +79,9 @@ Get in contact:
 Do the usual GitHub fork and pull request dance. Add yourself (or I will add you to the contributors section) if you want to. 
 
 
+## Suggestions
+Feel free to suggest any new topics that you would like to be covered.
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/) © Tomaž Kaštrun
