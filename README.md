@@ -51,6 +51,9 @@ a set of blogposts as a **Advent of Azure Databricks** _2020_ presented to reade
 30. [Dec 30 2020 - Monitoring and troubleshooting of Apache Spark](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2030%202020%20-%20Monitoring%20and%20troubleshooting%20of%20Apache%20Spark.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/30/advent-of-2020-day-30-monitoring-and-troubleshooting-of-apache-spark/))
 31. [Dec 31 2020 - Azure Databricks documentation, learning materials and additional resources](https://github.com/tomaztk/Azure-Databricks/blob/main/Dec%2031%202020%20-%20Azure%20Databricks%20documentation%2C%20learning%20materials%20and%20additional%20resources.md) ([blogpost](https://tomaztsql.wordpress.com/2020/12/31/advent-of-2020-day-31-azure-databricks-documentation-learning-materials-and-additional-resources/))
 
+## Additional Material
+
+Additional Material as a collection of demo materials from different sessions is also available for use in this repository.
 
 ## Blog
 
